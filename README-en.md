@@ -24,6 +24,7 @@ For its correct functioning we must have installed:
 - [Polybar](https://github.com/polybar/polybar) v3.6.7
 - [Rofi](https://github.com/davatorium/rofi) v1.7.3
 - [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet) (Optional)
+- [xclip](https://github.com/astrand/xclip) v0.13
 
 The module has been created in these versions, so in previous versions or higher I can't be 100% sure that it will work.
 
