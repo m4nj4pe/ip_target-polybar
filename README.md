@@ -23,7 +23,7 @@ Su funcionamiento es simple:
 Para su correcto funcionamiento debemos de tener instalado:
 - [Polybar](https://github.com/polybar/polybar) v3.6.7
 - [Rofi](https://github.com/davatorium/rofi) v1.7.3
-- [Nerd Fonts](https://www.nerdfonts.com/#home) (Opcional)
+- [Nerd Fonts]([https://www.nerdfonts.com/#home](https://www.nerdfonts.com/cheat-sheet)) (Opcional)
 
 El módulo ha sido creado en estas versiones, por lo que en versiones anteriores o superiores no puedo asegurar al 100% que funcione.
 
@@ -78,7 +78,36 @@ click-left = ~/ruta/de/tu/archivo/copy_ip.sh click-left
 hook-0 = echo
 hook-1 = ~/ruta/de/tu/archivo/copy_ip.sh
 ```
-Por último, debemos de cambiar las rutas de los códigos anteriores para referenciar el siguiente script.
+Por último, debemos de cambiar las rutas de los códigos anteriores para referenciar el siguiente [script](https://github.com/m4nj4pe/ip_target-polybar/tree/main/script/copy_ip.sh)
+```bash
+#!/bin/bash
 
+ip_file="/ruta/a/la/carpeta/ip.tmp"
 
+if [ "$1" = "click-left" ]; then
+    new_ip=$(rofi -dmenu -p "Ingresa la IP:" <<< "$(cat "$ip_file")")
+    if [ "$new_ip" = "No target" ]; then
+        echo "No target" > "$ip_file"
+    elif [ -n "$new_ip" ]; then
+        echo "$new_ip" > "$ip_file"
+    fi
+
+    polybar-msg hook  nombre_modulo 1
+fi
+
+ip=$(cat "$ip_file")
+
+if [ "$ip" = "No target" ]; then
+    echo -n "%{F#FF0000}󱚡 %{u-} No target" 
+else
+    echo -n "$ip" | xclip -sel clip
+    echo -n "%{F#00FF00}󱚝  %{F#ffffff}$ip" 
+
+fi
+```
+Ya estaría todo. En caso de cambiar los iconos, os dejo referenciado el apartado de NerdFonts arriba. 😀
+
+¡Gracias por echarle un vistazo! Si tienes alguna sugerencia puedes hacerla e !incluso si quieres mejoras pueder un fork! 😁
+
+¡¡Un saludo!! 🧑‍💻
 
