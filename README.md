@@ -4,7 +4,9 @@
 
 **IP_Target** es un módulo que ayuda a formar parte del éxito en el trabajo, mejorando la productividad.
 
-![](https://github.com/m4nj4pe/ip_target-polybar/blob/main/media/demo_notarget.png) ![](https://github.com/m4nj4pe/ip_target-polybar/blob/main/media/demo_ip.png) 
+![](https://github.com/m4nj4pe/ip_target-polybar/blob/main/media/demo_notarget.png)
+![](https://github.com/m4nj4pe/ip_target-polybar/blob/main/media/demo_ip.png) 
+
 
 ### Descripción
 
@@ -76,6 +78,7 @@ click-left = ~/ruta/de/tu/archivo/copy_ip.sh click-left
 hook-0 = echo
 hook-1 = ~/ruta/de/tu/archivo/copy_ip.sh
 ```
+Por último, debemos de cambiar las rutas de los códigos anteriores para referenciar el siguiente script.
 
 
 
