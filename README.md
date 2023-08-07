@@ -78,7 +78,7 @@ click-left = ~/ruta/de/tu/archivo/copy_ip.sh click-left
 hook-0 = echo
 hook-1 = ~/ruta/de/tu/archivo/copy_ip.sh
 ```
-Por último, debemos de cambiar las rutas de los códigos anteriores para referenciar el siguiente [script](https://github.com/m4nj4pe/ip_target-polybar/tree/main/script/copy_ip.sh)
+Por último, debemos de cambiar las rutas de los códigos anteriores para referenciar el siguiente [script.](https://github.com/m4nj4pe/ip_target-polybar/tree/main/script/copy_ip.sh)
 ```bash
 #!/bin/bash
 
