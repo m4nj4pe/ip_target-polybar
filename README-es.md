@@ -1,6 +1,6 @@
 # Índice
 
-**[Descripción](#descripción) | [Dependencias](#dependencias)  | [Código](#código) | [English](https://github.com/m4nj4pe/ip_target-polybar/blob/main/README-en.md)**
+**[Descripción](#descripción) | [Dependencias](#dependencias)  | [Código](#código) | [Inglés](https://github.com/m4nj4pe/ip_target-polybar/blob/main/README-en.md)**
 
 **IP_Target** es un módulo que ayuda a formar parte del éxito en el trabajo, mejorando la productividad.
 
