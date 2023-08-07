@@ -107,7 +107,7 @@ fi
 ```
 Ya estaría todo. En caso de cambiar los iconos, os dejo referenciado el apartado de NerdFonts arriba. 😀
 
-¡Gracias por echarle un vistazo! Si tienes alguna sugerencia puedes hacerla e !incluso si quieres mejoras pueder un fork! 😁
+¡Gracias por echarle un vistazo! Si tienes alguna sugerencia puedes hacerla e !incluso si quieres mejoras pueder un fork! 😁 o ponerle una estrella. :sparkles:
 
 ¡¡Un saludo!! 🧑‍💻
 
