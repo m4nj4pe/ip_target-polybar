@@ -24,6 +24,7 @@ Para su correcto funcionamiento debemos de tener instalado:
 - [Polybar](https://github.com/polybar/polybar) v3.6.7
 - [Rofi](https://github.com/davatorium/rofi) v1.7.3
 - [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet) (Opcional)
+- [xclip](https://github.com/astrand/xclip) v0.13
 
 El módulo ha sido creado en estas versiones, por lo que en versiones anteriores o superiores no puedo asegurar al 100% que funcione.
 
